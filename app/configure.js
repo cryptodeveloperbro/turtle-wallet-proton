@@ -32,7 +32,7 @@ const configure = {
      * The address prefix your coin uses - you can find this in CryptoNoteConfig.h.
      * In TurtleCoin, this converts to TRTL
      */
-    addressPrefix: 3914525,
+    addressPrefix: 0x233caf,
 
     /**
      * Request timeout for daemon operations in milliseconds
