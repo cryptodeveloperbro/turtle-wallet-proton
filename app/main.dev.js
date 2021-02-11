@@ -196,12 +196,12 @@ const createContextMenu = () => {
 const createMainWindow = () => {
     // await installExtensions();
     mainWindow = new BrowserWindow({
-        title: `TurtleCoin Wallet v${version}`,
+        title: `WSBCoin Wallet v${version}`,
         useContentSize: true,
         show: false,
         width: 1250,
         height: 625,
-        backgroundColor: "#121212",
+        backgroundColor: "#090580",
         icon: nativeImage.createFromPath(
             path.join(__dirname, "images/icon.png")
         ),
