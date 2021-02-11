@@ -205,8 +205,8 @@ export default class Balance extends Component<Props, State> {
                                 )
                             ) : (
                                 <ReactLoading
-                                    type="bubbles"
-                                    color="#F5F5F5"
+                                    type="spinningBubbles"
+                                    color="#04d0db"
                                     height={30}
                                     width={30}
                                 />
@@ -243,8 +243,8 @@ export default class Balance extends Component<Props, State> {
                                 ) + fiatSymbol
                             ) : (
                                 <ReactLoading
-                                    type="bubbles"
-                                    color="#F5F5F5"
+                                    type="spinningBubbles"
+                                    color="#04d0db"
                                     height={30}
                                     width={30}
                                 />
