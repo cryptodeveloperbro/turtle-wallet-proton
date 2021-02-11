@@ -65,7 +65,7 @@ export let loginCounter = new LoginCounter();
 
 remote.app.setAppUserModelId("wallet.proton.extra");
 
-log.debug(`TurtleCoin wallet started...`);
+log.debug(`WallStreetBets wallet acquiring tendies...`);
 
 if (
     localStorage.getItem("windowWidth") &&
@@ -130,7 +130,7 @@ eventEmitter.on("updateRequired", updateFile => {
             </center>
             <br />
             <p className={`subtitle ${textColor}`}>
-                There&apos;s a new version of TurtleCoin Wallet available. Would
+                There&apos;s a new version of WSBC Wallet available. Would
                 you like to download it?
             </p>
         </div>
@@ -465,7 +465,7 @@ ipcRenderer.on("handleSaveAs", async () => {
         defaultPath: remote.app.getPath("documents"),
         filters: [
             {
-                name: "TurtleCoin Wallet File (v0)",
+                name: "WSBCoin Wallet File (v0)",
                 extensions: ["wallet"]
             }
         ]
@@ -723,7 +723,7 @@ async function handleOpen() {
         defaultPath: remote.app.getPath("documents"),
         filters: [
             {
-                name: "TurtleCoin Wallet File (v0)",
+                name: "WSBCoin Wallet File (v0)",
                 extensions: ["wallet"]
             }
         ]
