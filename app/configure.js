@@ -10,7 +10,7 @@ const configure = {
     /**
      * If you can't figure this one out, I don't have high hopes
      */
-    coinName: "TurtleCoin",
+    coinName: "WallStreetBetsCoin",
 
     /**
      * Prefix for URI encoded addresses
@@ -69,7 +69,7 @@ const configure = {
     /**
      * Your coins 'ticker', generally used to refer to the coin, i.e. 123 TRTL
      */
-    ticker: "TRTL",
+    ticker: "WSBC",
 
     /**
      * Most people haven't mined any blocks, so lets not waste time scanning
@@ -80,12 +80,12 @@ const configure = {
     /**
      * Disable AutoOptimization by default
      */
-    enableAutoOptimization: false,
+    enableAutoOptimization: true,
 
     /**
      * The minimum fee allowed for transactions, in ATOMIC units
      */
-    minimumFee: 100,
+    minimumFee: 50,
 
     /**
      * Fee per byte height
@@ -172,7 +172,7 @@ const configure = {
 
     explorerURL: "https://explorer.turtlecoin.lol",
 
-    githubRepo: "https://github.com/turtlecoin/turtle-wallet-proton",
+    githubRepo: "https://github.com/cryptodeveloperbro/turtle-wallet-proton",
 
     discordURL: "https://discord.com/invite/ubFVGH6"
 };
