@@ -112,8 +112,8 @@ class NavBar extends Component<Props, State> {
                                 <div className="navbar-brand">
                                     <div className="navbar-item">
                                         <img
-                                            src="images/icon_color_64x64.png"
-                                            alt="turtlecoin wallet logo in green"
+                                            src="images/icon.png"
+                                            alt="wsbcoin wallet logo"
                                         />
                                     </div>
                                 </div>
