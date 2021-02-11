@@ -176,7 +176,7 @@ export default class ImportKey extends Component<Props, State> {
                 defaultPath: remote.app.getPath("documents"),
                 filters: [
                     {
-                        name: "TurtleCoin Wallet File (v0)",
+                        name: "WSBC Wallet File (v0.1)",
                         extensions: ["wallet"]
                     }
                 ]
