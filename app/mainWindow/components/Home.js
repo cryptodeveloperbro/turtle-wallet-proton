@@ -605,14 +605,14 @@ export default class Home extends Component<Props, State> {
                                             className={`${textColor} title has-text-centered`}
                                         >
                                             <i className="fas fa-robot" />
-                                            &nbsp;&nbsp;Welcome to TurtleCoin
-                                            Wallet!
+                                            &nbsp;&nbsp;Welcome to WallStreetBets
+                                            Wallet! lets get those Tendies
                                         </p>
                                         <br />
                                         <p
                                             className={`${textColor} subtitle has-text-centered`}
                                         >
-                                            You don&apos;t have any transactions
+                                            You don&apos;t have any tendies
                                             yet. They will display here once you
                                             do.
                                         </p>
